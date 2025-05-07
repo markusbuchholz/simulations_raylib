@@ -1,4 +1,4 @@
-## Simulations [raylib]
+# Simulations using Raylib
 
 Sample simulations using the [raylib](https://github.com/raysan5/raylib).
 
