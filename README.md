@@ -11,7 +11,12 @@ Check [here](https://www.raylib.com/index.html) for more examples. <br>
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential git cmake libasound2-dev libx11-dev libxrandr-dev libxi-dev libxinerama-dev libxcursor-dev libgl1-mesa-dev libglu1-mesa-dev libwayland-dev libxkbcommon-dev
+sudo apt update
+sudo apt install -y build-essential git cmake \
+  libasound2-dev libx11-dev libxrandr-dev libxi-dev \
+  libxinerama-dev libxcursor-dev libgl1-mesa-dev \
+  libglu1-mesa-dev libwayland-dev libxkbcommon-dev
+
 
 git clone https://github.com/raysan5/raylib.git
 cd raylib
@@ -30,6 +35,7 @@ sudo ldconfig
 git clone https://github.com/markusbuchholz/simulations_raylib.git
 
 cd simulations_raylib/src
+
 gcc robot_ray.c -o robot -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 ./robot
