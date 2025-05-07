@@ -23,3 +23,16 @@ sudo ldconfig
 
 ```
 
+## Build and run simulations
+
+```bash
+
+git clone https://github.com/markusbuchholz/simulations_raylib.git
+
+cd simulations_raylib/src
+gcc robot_ray.c -o robot -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+
+./robot
+
+```
+
