@@ -44,7 +44,7 @@ gcc robot_ray.c -o robot -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 ./robot
 
-g++ robot_ray2.cpp -o robot2 -lraylib -lGL -lm -lpthread -ldl -lrt -lX1
+g++ robot_ray2.cpp -o robot2 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 ./robot2
 ```
