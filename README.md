@@ -49,3 +49,9 @@ g++ robot_ray2.cpp -o robot2 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ./robot2
 ```
 
+
+---
+## Links
+
+- [m3d](https://gitlab.com/bztsrc/model3d)
+- [Blender plugin](https://gitlab.com/bztsrc/model3d/-/tree/master/blender)
