@@ -22,6 +22,7 @@ int main(void)
 
     Vector3 position = { 0.0f, 0.0f, 0.0f };            // Set model position
 
+    //char modelFileName[128] = "suzanne.m3d";
     char modelFileName[128] = "cesium_man.m3d";
     //char modelFileName[128] = "r2d2.m3d";
     bool drawMesh = 1;
